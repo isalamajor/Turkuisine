@@ -1,0 +1,38 @@
+.search-input {  
+    all: unset; /* Eliminar estilos predeterminados boton*/
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.search-btn {
+    all: unset; 
+    height: 2rem;
+    width: 30%;
+    font-size: 1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.search-btn:hover {
+    background-color: rgb(166, 199, 228);
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+

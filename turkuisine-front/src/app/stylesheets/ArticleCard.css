@@ -1,0 +1,40 @@
+.card-author span {
+    color: #05057e;
+    font-weight: 800;
+}
+
+  
+.article-card {
+    border: 1px solid #ccc;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    min-width: 45vw;
+    width: 80%;
+  }
+  
+.article-card h2 {
+    color: #333;
+}
+    
+
+.article-card:hover {
+    background-color: rgb(236, 238, 248);
+}
+
+
+.link {
+    color:#05057e;
+}
+.link:hover {
+    color:blueviolet;
+}
+
+
+@media (max-width: 600px) {
+    .article-card {
+        font-size: 90%;
+        
+        padding: 1rem 1rem 2rem 1rem;
+    }
+  }
