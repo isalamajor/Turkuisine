@@ -4,6 +4,8 @@
 Este proyecto consta de una API construida por mí que permite crear, borrar y consultar artículos e imágenes de un blog o cualquier otro uso que se le quiera dar
 Para testear la API, no solo se ha utilizado la herramienta Postman, sino que se ha empleado como servicio para una web programada en Next, cuyo frontend se encuentra en la carpeta "Turkuisine-front"
 
+Este es el resultado de cómo queda la web, sirviendose de la api rest node y con los datos cargados en MongoDB: [Ver vídeo](./resultado_web.webm)
+
 Estos son los pasos a seguir para montar el proyecto:
 
   1. Montar MongoDB:
