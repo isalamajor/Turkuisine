@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "673cbcc8e66809620b9e131f"
+  },
+  "title": "Iskender",
+  "author": "Isabel Hernández",
+  "description": "This is my favorite turkish food, a piece of heaven",
+  "content": " Iskender Kebab features thinly sliced doner kebab meat, typically made from lamb or a mix of lamb and beef, roasted to perfection on a vertical spit. The tender, flavorful meat is served atop a bed of cubed pide bread, which absorbs the dish’s rich toppings. A generous ladle of warm, tangy tomato sauce is poured over the meat, followed by a drizzle of melted butter. The dish is traditionally accompanied by a dollop of creamy yogurt on the side, providing a refreshing contrast to the bold, savory flavors.\n\nOne of the keys to Iskender Kebab’s distinctive taste is its simplicity and the quality of its ingredients. The bread and yogurt add texture and balance, while the tomato sauce and butter elevate the flavors to indulgent heights.",
+  "published_date": {
+    "$date": "2024-11-19T16:28:56.935Z"
+  },
+  "__v": 0,
+  "picture": "article1732442409170İskender_kebap.JPG"
+},
+{
+  "_id": {
+    "$oid": "673d07116e282dce32bf0606"
+  },
+  "title": "Şiş Kebab",
+  "author": "Isabel Hernández",
+  "description": "The OG kebab",
+  "content": "The preparation involves threading the marinated meat onto metal or wooden skewers, often alternating with chunks of vegetables like onions, peppers, or tomatoes. The skewers are then grilled over an open flame or hot coals, giving the meat a smoky aroma and a perfectly charred exterior while keeping the inside juicy and tender.\n\nŞiş Kebab is usually served with fluffy rice or bulgur pilaf, fresh flatbread, and a medley of side dishes such as grilled vegetables, tangy yogurt-based sauces, and refreshing salads. A sprinkle of sumac or a squeeze of fresh lemon adds a tangy finish that complements the rich, smoky flavors of the kebab.",
+  "picture": "article1732442047622IMG_6726.JPEG",
+  "published_date": {
+    "$date": "2024-11-19T21:45:53.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e16877530e58b08536b3b"
+  },
+  "title": "Manti",
+  "description": "Not turkish pasta",
+  "author": "Isabel Hernández",
+  "content": "Manti is a beloved Turkish dish that holds a special place in the country’s culinary heritage. Often referred to as Turkish dumplings, manti are small pockets of thin dough filled with a savory mixture of minced meat, typically lamb or beef, seasoned with onions, salt, and pepper. These delicate parcels are carefully folded into tiny shapes and either boiled or baked to perfection.\n\nThe preparation of manti is a labor of love, often a family affair where multiple hands work together to create these intricate dumplings. Once cooked, manti are traditionally served topped with a generous dollop of yogurt sauce mixed with garlic and drizzled with melted butter infused with red pepper flakes or sumac for a tangy kick. ",
+  "published_date": "12/10/2024",
+  "picture": "article1732443048590manti.PNG"
+},
+{
+  "_id": {
+    "$oid": "674320bb34e73adb38279618"
+  },
+  "title": "Wet burger",
+  "description": "Next level cheeseburger",
+  "content": "The \"Islak Burger\" (or \"Wet Burger\") is a popular Turkish street food, especially in Istanbul. It’s a simple burger with a juicy beef patty in a soft sesame bun, but here’s the twist: it’s soaked in a flavorful, garlicky tomato sauce and then steamed. This makes the bun all soggy and delicious, giving the burger a unique taste. It’s a favorite late-night snack for many, often paired with pickles on the side. If you're looking for something quick, tasty, and a little different, the Islak Burger is the way to go!",
+  "author": "Isabel Hernández",
+  "picture": "article1732452920725wetburger2.PNG"
+},
+{
+  "_id": {
+    "$oid": "674357cf34e73adb3827961b"
+  },
+  "title": "Baklava",
+  "author": "Isabel Hernández",
+  "description": "The main character among turkish desserts",
+  "content": "Baklava is a sweet, flaky pastry that's super popular in Turkey. It’s made with layers of thin, crispy dough called phyllo, filled with chopped nuts, and then drenched in a sticky, sweet syrup. The syrup, usually made with honey and a bit of lemon or rosewater, soaks into the layers, making every bite melt in your mouth. The nuts inside—often pistachios, walnuts, or hazelnuts—give it that extra flavor and texture. You can even get different types, like with chocolate or more exotic spices, depending on where you are.",
+  "published_date": "17/11/2024",
+  "picture": "article1732466764178baklava.JPEG"
+}]
