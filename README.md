@@ -41,7 +41,7 @@ En postman, añadir archivo con key "file0"
 http://localhost:3090/api/upload-pic/:id
 
 // GET pic by its filename
-http://localhost:3090/api/:file
+http://localhost:3090/api/picture/:file
 
 // GET pic by its article 
 http://localhost:3090/api/articlePictures/:id
@@ -53,10 +53,10 @@ http://localhost:3090/api/searcher/:search
 ## Resultado Web 
 Este es el aspecto de la app ya montada, permite hacer búsquedas y consultar varios artículos
 
-<img width="500" alt="Captura" src="https://github.com/user-attachments/assets/6472a060-6855-404f-928a-b7fe7e433e14">
-<img width="500" alt="Captura2" src="https://github.com/user-attachments/assets/85dcd814-8993-4456-b410-bf6261a17373">
-<img width="500" alt="Captura3" src="https://github.com/user-attachments/assets/fa88bf21-266e-40c5-b0e6-3f6515966aaa">
-<img width="500" alt="Captura4" src="https://github.com/user-attachments/assets/6668f757-0a6e-46a2-ad7f-67a25bb36bc8">
+<img width="40%" alt="Captura" src="https://github.com/user-attachments/assets/6472a060-6855-404f-928a-b7fe7e433e14">
+<img width="40%" alt="Captura2" src="https://github.com/user-attachments/assets/85dcd814-8993-4456-b410-bf6261a17373">
+<img width="40%" alt="Captura3" src="https://github.com/user-attachments/assets/fa88bf21-266e-40c5-b0e6-3f6515966aaa">
+<img width="40%" alt="Captura4" src="https://github.com/user-attachments/assets/6668f757-0a6e-46a2-ad7f-67a25bb36bc8">
 
 También está disponible este vídeo de cómo queda la web: [Ver vídeo](./resultado_web.webm)
 
