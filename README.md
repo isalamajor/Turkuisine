@@ -8,7 +8,7 @@ Para testear la API, no solo se ha utilizado la herramienta Postman, sino que se
 Estos son los pasos a seguir para montar el proyecto:
 
   1. Montar MongoDB:
-  	En  C:\Program Files\MongoDB\Server\[VERSION]\bin, ejecutar mongod.exe --dbpath="data/db" (este flag es necesario si tienes varias versiones de Mongo, para especificar que data/db usar)
+  	En  C:\Program Files\MongoDB\Server\[VERSION]\bin, ejecutar mongod.exe --dbpath="C:/data/db" (este flag es necesario si tienes varias versiones de Mongo, para especificar que data/db usar)
     
   2. Añadir datos con MongoDB Compass. Es una manera sencilla de hacerlo, dejo el archivo json turkuisine.articles con los datos que yo he utilizado. (db: turkuisine, coleccion: articles)
   
