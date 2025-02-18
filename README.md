@@ -1,71 +1,63 @@
 # Turkuisine - Blog API and frontend website
 
-## Montar proyecto
+## Set up the project
 
-Este proyecto consta de una API construida por mí que permite crear, borrar y consultar artículos e imágenes de un blog o cualquier otro uso que se le quiera dar
-Para testear la API, no solo se ha utilizado la herramienta Postman, sino que se ha empleado como servicio para una web programada en Next, cuyo frontend se encuentra en la carpeta "Turkuisine-front"
+This project consists of an API built by me that allows creating, deleting, and querying articles and images for a blog or any other use case.  
+To test the API, not only was Postman used, but it was also employed as a service for a website programmed in Next.js, with the frontend located in the "Turkuisine-front" folder.
 
-Estos son los pasos a seguir para montar el proyecto:
+Here are the steps to set up the project:
 
-  1. Montar MongoDB:
-  	En  C:\Program Files\MongoDB\Server\[VERSION]\bin, ejecutar mongod.exe --dbpath="C:/data/db" (este flag es necesario si tienes varias versiones de Mongo, para especificar que data/db usar)
+  1. Set up MongoDB:  
+  	In `C:\Program Files\MongoDB\Server\[VERSION]\bin`, run `mongod.exe --dbpath="C:/data/db"` (this flag is necessary if you have multiple versions of MongoDB, to specify which data/db to use).
     
-  2. Añadir datos con MongoDB Compass. Es una manera sencilla de hacerlo, dejo el archivo json turkuisine.articles con los datos que yo he utilizado. (db: turkuisine, coleccion: articles)
+  2. Add data with MongoDB Compass:  
+  	This is an easy way to do it. I’ve provided the `turkuisine.articles` JSON file with the data I used. (db: turkuisine, collection: articles)
   
-  3. Lanzar Servidor Node para poder usar la API:
-  	En api-rest-node, instalar dependencias (npm install) + npm start
+  3. Launch Node server to use the API:  
+  	In the `api-rest-node` folder, install dependencies (`npm install`) and run (`npm start`).
 
-  3. Lanzar página web blog (front-end):
-  	En turkuisine-front, instalar dependencias (npm install) + npm run dev
+  4. Launch blog website (frontend):  
+  	In the `turkuisine-front` folder, install dependencies (`npm install`) and run (`npm run dev`).
   
-  ## Consultas a API disponibles (en la API está configurado el puerto 3090):
+  ## Available API queries (the API is configured on port 3090):
 
-// POST - guardar un recurso
-Añadir nuevo artículo con sus keys correspondientes (title, author, description, content, published_date [default: Date.now])
-http://localhost:3090/api/create
+// POST - Save a resource  
+Add a new article with its corresponding keys (title, author, description, content, published_date [default: Date.now])  
+`http://localhost:3090/api/create`
 
-// GET articles
-http://localhost:3090/api/articles
+// GET articles  
+`http://localhost:3090/api/articles`
 
-// GET article by id
-http://localhost:3090/api/articles/:id
+// GET article by id  
+`http://localhost:3090/api/articles/:id`
 
-// DELETE article 
-http://localhost:3090/api/articles:id
+// DELETE article  
+`http://localhost:3090/api/articles/:id`
 
-// PUT article (edit)
-http://localhost:3090/api/articles/:id
+// PUT article (edit)  
+`http://localhost:3090/api/articles/:id`
 
-// POST Upload pics to articles
-En postman, añadir archivo con key "file0"
-http://localhost:3090/api/upload-pic/:id
+// POST Upload pics to articles  
+In Postman, add a file with the key "file0"  
+`http://localhost:3090/api/upload-pic/:id`
 
-// GET pic by its filename
-http://localhost:3090/api/picture/:file
+// GET pic by its filename  
+`http://localhost:3090/api/picture/:file`
 
-// GET pic by its article 
-http://localhost:3090/api/articlePictures/:id
+// GET pic by its article  
+`http://localhost:3090/api/articlePictures/:id`
 
-// GET search articles by some string
-http://localhost:3090/api/searcher/:search
+// GET search articles by some string  
+`http://localhost:3090/api/searcher/:search`
 
+## Web Result  
+Here is how the app looks once set up, it allows searching and viewing several articles.
 
-## Resultado Web 
-Este es el aspecto de la app ya montada, permite hacer búsquedas y consultar varios artículos
-
-<img width="40%" alt="Captura" src="https://github.com/user-attachments/assets/6472a060-6855-404f-928a-b7fe7e433e14">
-<img width="40%" alt="Captura2" src="https://github.com/user-attachments/assets/85dcd814-8993-4456-b410-bf6261a17373">
-<img width="40%" alt="Captura3" src="https://github.com/user-attachments/assets/fa88bf21-266e-40c5-b0e6-3f6515966aaa">
+<img width="40%" alt="Captura" src="https://github.com/user-attachments/assets/6472a060-6855-404f-928a-b7fe7e433e14">  
+<img width="40%" alt="Captura2" src="https://github.com/user-attachments/assets/85dcd814-8993-4456-b410-bf6261a17373">  
+<img width="40%" alt="Captura3" src="https://github.com/user-attachments/assets/fa88bf21-266e-40c5-b0e6-3f6515966aaa">  
 <img width="40%" alt="Captura4" src="https://github.com/user-attachments/assets/6668f757-0a6e-46a2-ad7f-67a25bb36bc8">
 
-También está disponible este vídeo de cómo queda la web: [Ver vídeo](./resultado_web.webm)
+Also available is this video showing how the website looks: [Watch video](./resultado_web.webm)
 
-
-
-Gracias por pasarte! :)
-
-
-
-
-
-
+Thank you for stopping by! :)
