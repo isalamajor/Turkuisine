@@ -8,7 +8,7 @@ To test the API, not only was Postman used, but it was also employed as a servic
 Here are the steps to set up the project:
 
   1. Set up MongoDB:  
-  	In `C:\Program Files\MongoDB\Server\[VERSION]\bin`, run `mongod.exe --dbpath="C:/data/db"` (this flag is necessary if you have multiple versions of MongoDB, to specify which data/db to use).
+  	In `C:\Program Files\MongoDB\Server\[VERSION]\bin`, run `./mongod.exe --dbpath="C:/data/db"` (this flag is necessary if you have multiple versions of MongoDB, to specify which data/db to use, that is the directory where your database will be saved).
     
   2. Add data with MongoDB Compass:  
   	This is an easy way to do it. I’ve provided the `turkuisine.articles` JSON file with the data I used. (db: turkuisine, collection: articles)
